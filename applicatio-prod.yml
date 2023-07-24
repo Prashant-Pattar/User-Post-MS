@@ -1,1 +1,11 @@
+//we are adding this eureka properties because it is commen for all services
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
 
+      
