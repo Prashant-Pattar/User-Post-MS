@@ -1,4 +1,4 @@
-//we are adding this eureka properties because it is commen for all services
+# we are adding this eureka properties because it is commen for all services
 eureka:
   instance:
     prefer-ip-address: true
