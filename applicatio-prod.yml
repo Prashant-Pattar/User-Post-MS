@@ -1,4 +1,8 @@
 # we are adding this eureka properties because it is commen for all services
+spring:
+  application:
+    name: Default-Config
+
 eureka:
   instance:
     prefer-ip-address: true
